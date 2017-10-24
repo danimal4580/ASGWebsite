@@ -5,3 +5,79 @@ html, body {
 a.align-right {
     text-align: right;
 }
+
+footer {
+    background-color: #242728;
+    color: #eee;
+    font-family: sans-serif;
+    padding: 0 30px 0 30px;
+}
+
+footer img#footer-logo {
+    width: 150px;
+}
+
+footer div#footer-content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+footer div.links > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer div.links > ul > li {
+    margin-bottom: 15px;
+}
+
+footer div#footer-content-container div {
+    flex-grow: 1;
+    margin-top: 20px;
+}
+
+footer form#feedback input[type='text'],
+footer form#feedback input[type='email'],
+footer form#feedback textarea {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+}
+
+footer form#feedback textarea {
+    font-family: sans-serif;
+}
+
+footer form#feedback input[type='submit'] {
+    float: right;
+    border: none;
+    outline: none;
+    background: #ddd;
+    padding: 5px;
+}
+
+footer div.links a {
+    color: #eee;
+    text-decoration: none;
+}
+
+footer div.links a:visited {
+    color: #eee;
+    text-decoration: none;
+}
+
+footer div#copyright {
+    margin-left: 150px;
+    padding: 15px 0 15px 0;
+}
+
+footer div.links > h5 {
+    font-weight: bold;
+    font-size: 1.25em;
+    margin: 0 0 15px 0;
+}
